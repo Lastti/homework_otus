@@ -30,58 +30,23 @@ single_schema = {
 
     'type': 'object',
     'properties': {
-        'id': {
-            'type': 'string'
-        },
-        'name': {
-            'type': 'string'
-        },
-        'brewery_type': {
-            'type': 'string'
-        },
-        'street': {
-            'type': ['string', 'null']
-        },
-        'address_2': {
-            'type': ['string', 'null']
-        },
-        'address_3': {
-            'type': ['null', 'string']
-        },
-        'city': {
-            'type': 'string'
-        },
-        'state': {
-            'type': 'string'
-        },
-        'county_province': {
-            'type': ['null', 'string']
-        },
-        'postal_code': {
-            'type': 'string'
-        },
-        'country': {
-            'type': 'string'
-        },
-        'longitude': {
-            'type': ['string', 'null']
-        },
-        'latitude': {
-            'type': ['string', 'null']
-        },
-        'phone': {
-            'type': ['string', 'null']
-        },
-        'website_url': {
-            'type': ['string', 'null']
-        },
-        'updated_at': {
-            'type': 'string'
-        },
-        'created_at': {
-            'type': 'string'
-        }
-
+        'id': {'type': 'string'},
+        'name': {'type': 'string'},
+        'brewery_type': {'type': 'string'},
+        'street': {'type': ['string', 'null']},
+        'address_2': {'type': ['string', 'null']},
+        'address_3': {'type': ['null', 'string']},
+        'city': {'type': 'string'},
+        'state': {'type': 'string'},
+        'county_province': {'type': ['null', 'string']},
+        'postal_code': {'type': 'string'},
+        'country': {'type': 'string'},
+        'longitude': {'type': ['string', 'null']},
+        'latitude': {'type': ['string', 'null']},
+        'phone': {'type': ['string', 'null']},
+        'website_url': {'type': ['string', 'null']},
+        'updated_at': {'type': 'string'},
+        'created_at': {'type': 'string'}
     }
 }
 

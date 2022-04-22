@@ -1,7 +1,7 @@
 base_url = 'https://jsonplaceholder.typicode.com'
 posts_endpoint = base_url + '/posts'
 
-main_schema = {
+main_posts_schema = {
     'type': 'array',
     'items': {
         'type': 'object',
@@ -14,7 +14,7 @@ main_schema = {
     }
 }
 
-single_schema = {
+single_post_schema = {
     'type': 'object',
     'properties': {
         'userId': {'type': 'number'},
