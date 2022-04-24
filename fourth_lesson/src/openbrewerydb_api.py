@@ -65,6 +65,6 @@ def get_all_breweries():
     assert response.ok, f'Response status code: {response.status_code} is not successful'
     response = response.json()
     all_breweries_list = []
-    for i in response:
-        all_breweries_list.append(i['id'])
+    for brewery in response:
+        all_breweries_list.append(brewery['id'])
     return all_breweries_list
