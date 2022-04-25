@@ -1,4 +1,4 @@
-from src.asserts import check_if_value_as_expected
+from second_lesson.src.asserts import check_if_value_as_expected
 
 
 def test_check_square_area(square):

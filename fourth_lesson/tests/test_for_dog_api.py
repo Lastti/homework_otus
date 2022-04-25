@@ -12,7 +12,6 @@ def test_check_availability_of_methods(url):
     assert response.json()['status'] == 'success'
 
 
-# think about 51
 @pytest.mark.parametrize('number', [1, 25, 50], ids=['minimum', 'valid', 'maximum'])
 def test_get_random_number_of_images(number):
     response = requests.get(f'https://dog.ceo/api/breed/hound/images/random/{number}')
